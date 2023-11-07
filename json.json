@@ -1,0 +1,70 @@
+{
+    "pdfId": {
+        "changing": "RM4Bw59z6KB/r1bHrtqueA==",
+        "permanent": "dODcGjkiRfKMhIAxP9gLVQ=="
+    },
+    "format": "https://pspdfkit.com/instant-json/v1",
+    "formFields": [
+        {
+            "v": 1,
+            "id": "01HENAREGZHTV2Y6FP2292JH03",
+            "comb": false,
+            "name": "TextField-j4uw6",
+            "type": "pspdfkit/form-field/text",
+            "label": "TextField-j4uw6",
+            "password": false,
+            "richText": false,
+            "multiLine": false,
+            "doNotScroll": false,
+            "pdfObjectId": 218,
+            "defaultValue": "",
+            "annotationIds": [
+                "01HEK9DPYYXCP7HS74YM11X1NS"
+            ],
+            "doNotSpellCheck": false
+        }
+    ],
+    "annotations": [
+        {
+            "v": 2,
+            "id": "01HEK9DPYYXCP7HS74YM11X1NS",
+            "bbox": [
+                222.19320678710938,
+                55.34246826171875,
+                200,
+                16
+            ],
+            "font": "Helvetica",
+            "name": "01HEK9DPZ0VR5S6GJKEJQB2NPV",
+            "type": "pspdfkit/widget",
+            "opacity": 1,
+            "fontSize": "auto",
+            "rotation": 0,
+            "createdAt": "1970-01-01T00:00:00Z",
+            "fontColor": "#000000",
+            "pageIndex": 0,
+            "updatedAt": "2023-11-06T21:43:08Z",
+            "customData": {
+                "type": "TextField",
+                "required": false
+            },
+            "borderColor": "#000000",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "creatorName": "TextField-j4uw6",
+            "formFieldName": "TextField-j4uw6",
+            "verticalAlign": "center",
+            "backgroundColor": "#FFFFFF",
+            "horizontalAlign": "left",
+            "lineHeightFactor": 1.186000108718872
+        }
+    ],
+    "formFieldValues": [
+        {
+            "v": 1,
+            "name": "TextField-j4uw6",
+            "type": "pspdfkit/form-field-value",
+            "value": "abc1234"
+        }
+    ]
+}
