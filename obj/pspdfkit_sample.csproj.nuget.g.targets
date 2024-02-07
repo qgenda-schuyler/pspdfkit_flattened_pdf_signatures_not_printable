@@ -1,8 +1,2 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)gdpicture.runtimes.windows/14.2.46/build/GdPicture.runtimes.windows.targets" Condition="Exists('$(NuGetPackageRoot)gdpicture.runtimes.windows/14.2.46/build/GdPicture.runtimes.windows.targets')" />
-    <Import Project="$(NuGetPackageRoot)gdpicture.runtimes.macos/14.2.46/build/GdPicture.runtimes.macos.targets" Condition="Exists('$(NuGetPackageRoot)gdpicture.runtimes.macos/14.2.46/build/GdPicture.runtimes.macos.targets')" />
-    <Import Project="$(NuGetPackageRoot)gdpicture.runtimes.linux/14.2.46/build/GdPicture.runtimes.linux.targets" Condition="Exists('$(NuGetPackageRoot)gdpicture.runtimes.linux/14.2.46/build/GdPicture.runtimes.linux.targets')" />
-  </ImportGroup>
-</Project>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />

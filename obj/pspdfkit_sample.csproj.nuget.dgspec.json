@@ -40,7 +40,7 @@
           "dependencies": {
             "GDPicture.API": {
               "target": "Package",
-              "version": "[14.2.46, )"
+              "version": "[14.2.60, )"
             }
           },
           "imports": [

@@ -7,6 +7,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
     <ItemGroup>
-    <PackageReference Include="GDPicture.API" Version="14.2.46" />
+    <PackageReference Include="GDPicture.API" Version="14.2.60" />
     </ItemGroup>
 </Project>

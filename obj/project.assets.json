@@ -2,15 +2,16 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "GdPicture.API/14.2.46": {
+      "GdPicture.API/14.2.60": {
         "type": "package",
         "dependencies": {
-          "GdPicture.runtimes.linux": "[14.2.46]",
-          "GdPicture.runtimes.macos": "[14.2.46]",
-          "GdPicture.runtimes.windows": "[14.2.46]",
+          "GdPicture.runtimes.linux": "[14.2.60]",
+          "GdPicture.runtimes.macos": "[14.2.60]",
+          "GdPicture.runtimes.windows": "[14.2.60]",
+          "Microsoft.AspNet.WebApi.Client": "6.0.0",
           "Newtonsoft.Json": "13.0.3",
           "System.Collections.Immutable": "7.0.0",
-          "System.IO.Packaging": "7.0.0",
+          "System.IO.Packaging": "8.0.0",
           "System.Text.Encoding.CodePages": "7.0.0"
         },
         "compile": {
@@ -24,22 +25,204 @@
           }
         }
       },
-      "GdPicture.runtimes.linux/14.2.46": {
+      "GdPicture.runtimes.linux/14.2.60": {
         "type": "package",
-        "build": {
-          "build/GdPicture.runtimes.linux.targets": {}
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/GdPicture.NET.14.Imaging.ML.arm64.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/GdPicture.NET.14.Imaging.Rendering.Skia.arm64.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/GdPicture.NET.14.barcode.1d.reader.arm64.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/GdPicture.NET.14.barcode.2d.reader.arm64.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/GdPicture.NET.14.filters.arm64.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/GdPicture.NET.14.image.gdimgplug.arm64.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/GdPicture.NET.14.machine.vision.arm64.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/GdPicture.NET.14.Imaging.ML.64.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/GdPicture.NET.14.Imaging.Rendering.Skia.64.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/GdPicture.NET.14.barcode.1d.reader.64.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/GdPicture.NET.14.barcode.2d.reader.64.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/GdPicture.NET.14.filters.64.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/GdPicture.NET.14.image.gdimgplug.64.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/GdPicture.NET.14.machine.vision.64.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          }
         }
       },
-      "GdPicture.runtimes.macos/14.2.46": {
+      "GdPicture.runtimes.macos/14.2.60": {
         "type": "package",
-        "build": {
-          "build/GdPicture.runtimes.macos.targets": {}
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/GdPicture.NET.14.Imaging.ML.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/GdPicture.NET.14.Imaging.Rendering.Skia.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/GdPicture.NET.14.barcode.1d.reader.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/GdPicture.NET.14.barcode.2d.reader.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/GdPicture.NET.14.filters.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/GdPicture.NET.14.image.gdimgplug.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/GdPicture.NET.14.machine.vision.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          }
         }
       },
-      "GdPicture.runtimes.windows/14.2.46": {
+      "GdPicture.runtimes.windows/14.2.60": {
         "type": "package",
-        "build": {
-          "build/GdPicture.runtimes.windows.targets": {}
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/GdPicture.NET.14.Imaging.ML.64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/GdPicture.NET.14.Imaging.Rendering.Skia.64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/GdPicture.NET.14.barcode.1d.reader.64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/GdPicture.NET.14.barcode.2d.reader.64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/GdPicture.NET.14.filters.64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/GdPicture.NET.14.image.gdimgplug.64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/GdPicture.NET.14.machine.vision.64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/GdPicture.NET.14.twain.client.64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/GdPicture.NET.14.Imaging.ML.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/GdPicture.NET.14.Imaging.Rendering.Skia.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/GdPicture.NET.14.barcode.1d.reader.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/GdPicture.NET.14.barcode.2d.reader.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/GdPicture.NET.14.filters.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/GdPicture.NET.14.image.gdimgplug.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/GdPicture.NET.14.machine.vision.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/GdPicture.NET.14.twain.client.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Newtonsoft.Json.Bson": "1.0.2",
+          "System.Memory": "4.5.5",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Net.Http.Formatting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Net.Http.Formatting.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -52,6 +235,22 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -74,7 +273,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "System.IO.Packaging/7.0.0": {
+      "System.IO.Packaging/8.0.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.IO.Packaging.dll": {
@@ -88,6 +287,15 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -130,18 +338,27 @@
             "rid": "win"
           }
         }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
       }
     }
   },
   "libraries": {
-    "GdPicture.API/14.2.46": {
-      "sha512": "sP5lQjIOBv+mZRXMZn4ihBXUDddqcOF2RREzCZ0eD8PaevHB/NBW5VQ08MRB30PQqziSQ/QvE+Ru/k+uxacpgw==",
+    "GdPicture.API/14.2.60": {
+      "sha512": "OJCxwJgGoWt48EhU4Bvg01HDFcZIsgAKmt40dQpAfmQWY0xyeQVG3GVab+83g/WJtbqav/KL1tVXJS3yO76hLQ==",
       "type": "package",
-      "path": "gdpicture.api/14.2.46",
+      "path": "gdpicture.api/14.2.60",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "gdpicture.api.14.2.46.nupkg.sha512",
+        "gdpicture.api.14.2.60.nupkg.sha512",
         "gdpicture.api.nuspec",
         "images/icon.png",
         "lib/net6.0/GdPicture.NET.14.API.dll",
@@ -149,83 +366,110 @@
         "licenses/LICENSE.md"
       ]
     },
-    "GdPicture.runtimes.linux/14.2.46": {
-      "sha512": "hECSjjb8uIq+N3734V+PacN6Gha3RT0zth85oVdFuOyJ46R+M1V5DMPCoxrJtk8UMz9knM+9XuQ+0gxX1OzKMg==",
+    "GdPicture.runtimes.linux/14.2.60": {
+      "sha512": "kDNI4MzCfrmUp+ZPvooFdKZsANP8DB0u/Y1xaXLPHjrsSp5FCPgsUZnzGW4RJ6h2BdZFDOIlHKIfxlOfIsTteA==",
       "type": "package",
-      "path": "gdpicture.runtimes.linux/14.2.46",
+      "path": "gdpicture.runtimes.linux/14.2.60",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/GdPicture.runtimes.linux.targets",
-        "build/native/linux-arm64/GdPicture.NET.14.Imaging.ML.arm64.so",
-        "build/native/linux-arm64/GdPicture.NET.14.Imaging.Rendering.Skia.arm64.so",
-        "build/native/linux-arm64/GdPicture.NET.14.barcode.1d.reader.arm64.so",
-        "build/native/linux-arm64/GdPicture.NET.14.barcode.2d.reader.arm64.so",
-        "build/native/linux-arm64/GdPicture.NET.14.filters.arm64.so",
-        "build/native/linux-arm64/GdPicture.NET.14.image.gdimgplug.arm64.so",
-        "build/native/linux-arm64/GdPicture.NET.14.machine.vision.arm64.so",
-        "build/native/linux-x64/GdPicture.NET.14.Imaging.ML.64.so",
-        "build/native/linux-x64/GdPicture.NET.14.Imaging.Rendering.Skia.64.so",
-        "build/native/linux-x64/GdPicture.NET.14.barcode.1d.reader.64.so",
-        "build/native/linux-x64/GdPicture.NET.14.barcode.2d.reader.64.so",
-        "build/native/linux-x64/GdPicture.NET.14.filters.64.so",
-        "build/native/linux-x64/GdPicture.NET.14.image.gdimgplug.64.so",
-        "build/native/linux-x64/GdPicture.NET.14.machine.vision.64.so",
-        "gdpicture.runtimes.linux.14.2.46.nupkg.sha512",
+        "build/net462/GdPicture.runtimes.linux.targets",
+        "buildTransitive/net462/GdPicture.runtimes.linux.targets",
+        "gdpicture.runtimes.linux.14.2.60.nupkg.sha512",
         "gdpicture.runtimes.linux.nuspec",
         "images/icon.png",
-        "licenses/LICENSE.md"
+        "lib/net6.0/_._",
+        "licenses/LICENSE.md",
+        "runtimes/linux-arm64/native/GdPicture.NET.14.Imaging.ML.arm64.so",
+        "runtimes/linux-arm64/native/GdPicture.NET.14.Imaging.Rendering.Skia.arm64.so",
+        "runtimes/linux-arm64/native/GdPicture.NET.14.barcode.1d.reader.arm64.so",
+        "runtimes/linux-arm64/native/GdPicture.NET.14.barcode.2d.reader.arm64.so",
+        "runtimes/linux-arm64/native/GdPicture.NET.14.filters.arm64.so",
+        "runtimes/linux-arm64/native/GdPicture.NET.14.image.gdimgplug.arm64.so",
+        "runtimes/linux-arm64/native/GdPicture.NET.14.machine.vision.arm64.so",
+        "runtimes/linux-x64/native/GdPicture.NET.14.Imaging.ML.64.so",
+        "runtimes/linux-x64/native/GdPicture.NET.14.Imaging.Rendering.Skia.64.so",
+        "runtimes/linux-x64/native/GdPicture.NET.14.barcode.1d.reader.64.so",
+        "runtimes/linux-x64/native/GdPicture.NET.14.barcode.2d.reader.64.so",
+        "runtimes/linux-x64/native/GdPicture.NET.14.filters.64.so",
+        "runtimes/linux-x64/native/GdPicture.NET.14.image.gdimgplug.64.so",
+        "runtimes/linux-x64/native/GdPicture.NET.14.machine.vision.64.so"
       ]
     },
-    "GdPicture.runtimes.macos/14.2.46": {
-      "sha512": "PMEvRtQsbd6OJaYem08XE6sGJcsI2RGMV0U3qWAK6YEK1aYXuFqKrYsR+LSiyKKmEtzCGVIE+vdcouWT0UhSfQ==",
+    "GdPicture.runtimes.macos/14.2.60": {
+      "sha512": "I5QkmdFKPwJQQSr0+owLhN3FYmX5MMWjqNYxMDHOGRg4BNEQxlU39Br+rmkS9zZLKNr7w25pkqVaFrdPHbNSog==",
       "type": "package",
-      "path": "gdpicture.runtimes.macos/14.2.46",
+      "path": "gdpicture.runtimes.macos/14.2.60",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/GdPicture.runtimes.macos.targets",
-        "build/native/macos-universal/GdPicture.NET.14.Imaging.ML.dylib",
-        "build/native/macos-universal/GdPicture.NET.14.Imaging.Rendering.Skia.dylib",
-        "build/native/macos-universal/GdPicture.NET.14.barcode.1d.reader.dylib",
-        "build/native/macos-universal/GdPicture.NET.14.barcode.2d.reader.dylib",
-        "build/native/macos-universal/GdPicture.NET.14.filters.dylib",
-        "build/native/macos-universal/GdPicture.NET.14.image.gdimgplug.dylib",
-        "build/native/macos-universal/GdPicture.NET.14.machine.vision.dylib",
-        "gdpicture.runtimes.macos.14.2.46.nupkg.sha512",
+        "build/net462/GdPicture.runtimes.macos.targets",
+        "buildTransitive/net462/GdPicture.runtimes.macos.targets",
+        "gdpicture.runtimes.macos.14.2.60.nupkg.sha512",
         "gdpicture.runtimes.macos.nuspec",
         "images/icon.png",
-        "licenses/LICENSE.md"
+        "lib/net6.0/_._",
+        "licenses/LICENSE.md",
+        "runtimes/osx/native/GdPicture.NET.14.Imaging.ML.dylib",
+        "runtimes/osx/native/GdPicture.NET.14.Imaging.Rendering.Skia.dylib",
+        "runtimes/osx/native/GdPicture.NET.14.barcode.1d.reader.dylib",
+        "runtimes/osx/native/GdPicture.NET.14.barcode.2d.reader.dylib",
+        "runtimes/osx/native/GdPicture.NET.14.filters.dylib",
+        "runtimes/osx/native/GdPicture.NET.14.image.gdimgplug.dylib",
+        "runtimes/osx/native/GdPicture.NET.14.machine.vision.dylib"
       ]
     },
-    "GdPicture.runtimes.windows/14.2.46": {
-      "sha512": "XTrkFfWT5kaV13XpQa0tQ0Glk91wZR9BCdwmdgkGtJ81YS5uy7pAcHn8+7pfFPutloYEU8KTdzm/yGyigVN32w==",
+    "GdPicture.runtimes.windows/14.2.60": {
+      "sha512": "1H3RrCmo3SVvKUiU3kvUTTtp9yqwBnZ6wmn0QKNG/UiVjvhVQlfcJ4f1gsUqO1fKr/ojn239QH/kyfb8qlnaog==",
       "type": "package",
-      "path": "gdpicture.runtimes.windows/14.2.46",
+      "path": "gdpicture.runtimes.windows/14.2.60",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/GdPicture.runtimes.windows.targets",
-        "build/native/win-x64/GdPicture.NET.14.Imaging.ML.64.dll",
-        "build/native/win-x64/GdPicture.NET.14.Imaging.Rendering.Skia.64.dll",
-        "build/native/win-x64/GdPicture.NET.14.barcode.1d.reader.64.dll",
-        "build/native/win-x64/GdPicture.NET.14.barcode.2d.reader.64.dll",
-        "build/native/win-x64/GdPicture.NET.14.filters.64.dll",
-        "build/native/win-x64/GdPicture.NET.14.image.gdimgplug.64.dll",
-        "build/native/win-x64/GdPicture.NET.14.machine.vision.64.dll",
-        "build/native/win-x64/GdPicture.NET.14.twain.client.64.dll",
-        "build/native/win-x86/GdPicture.NET.14.Imaging.ML.dll",
-        "build/native/win-x86/GdPicture.NET.14.Imaging.Rendering.Skia.dll",
-        "build/native/win-x86/GdPicture.NET.14.barcode.1d.reader.dll",
-        "build/native/win-x86/GdPicture.NET.14.barcode.2d.reader.dll",
-        "build/native/win-x86/GdPicture.NET.14.filters.dll",
-        "build/native/win-x86/GdPicture.NET.14.image.gdimgplug.dll",
-        "build/native/win-x86/GdPicture.NET.14.machine.vision.dll",
-        "build/native/win-x86/GdPicture.NET.14.twain.client.dll",
-        "gdpicture.runtimes.windows.14.2.46.nupkg.sha512",
+        "build/net462/GdPicture.runtimes.windows.targets",
+        "buildTransitive/net462/GdPicture.runtimes.windows.targets",
+        "gdpicture.runtimes.windows.14.2.60.nupkg.sha512",
         "gdpicture.runtimes.windows.nuspec",
         "images/icon.png",
-        "licenses/LICENSE.md"
+        "lib/net462/_._",
+        "lib/net6.0/_._",
+        "lib/netcoreapp3.1/_._",
+        "licenses/LICENSE.md",
+        "runtimes/win-x64/native/GdPicture.NET.14.Imaging.ML.64.dll",
+        "runtimes/win-x64/native/GdPicture.NET.14.Imaging.Rendering.Skia.64.dll",
+        "runtimes/win-x64/native/GdPicture.NET.14.barcode.1d.reader.64.dll",
+        "runtimes/win-x64/native/GdPicture.NET.14.barcode.2d.reader.64.dll",
+        "runtimes/win-x64/native/GdPicture.NET.14.filters.64.dll",
+        "runtimes/win-x64/native/GdPicture.NET.14.image.gdimgplug.64.dll",
+        "runtimes/win-x64/native/GdPicture.NET.14.machine.vision.64.dll",
+        "runtimes/win-x64/native/GdPicture.NET.14.twain.client.64.dll",
+        "runtimes/win-x86/native/GdPicture.NET.14.Imaging.ML.dll",
+        "runtimes/win-x86/native/GdPicture.NET.14.Imaging.Rendering.Skia.dll",
+        "runtimes/win-x86/native/GdPicture.NET.14.barcode.1d.reader.dll",
+        "runtimes/win-x86/native/GdPicture.NET.14.barcode.2d.reader.dll",
+        "runtimes/win-x86/native/GdPicture.NET.14.filters.dll",
+        "runtimes/win-x86/native/GdPicture.NET.14.image.gdimgplug.dll",
+        "runtimes/win-x86/native/GdPicture.NET.14.machine.vision.dll",
+        "runtimes/win-x86/native/GdPicture.NET.14.twain.client.dll"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/6.0.0": {
+      "sha512": "zXeWP03dTo67AoDHUzR+/urck0KFssdCKOC+dq7Nv1V2YbFh/nIg09L0/3wSvyRONEdwxGB/ssEGmPNIIhAcAw==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard1.3/System.Net.Http.Formatting.dll",
+        "lib/netstandard1.3/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.6.0.0.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
       ]
     },
     "Newtonsoft.Json/13.0.3": {
@@ -258,6 +502,27 @@
         "packageIcon.png"
       ]
     },
+    "Newtonsoft.Json.Bson/1.0.2": {
+      "sha512": "QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
+      "type": "package",
+      "path": "newtonsoft.json.bson/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net45/Newtonsoft.Json.Bson.dll",
+        "lib/net45/Newtonsoft.Json.Bson.pdb",
+        "lib/net45/Newtonsoft.Json.Bson.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.pdb",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.Bson.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.Bson.pdb",
+        "lib/netstandard2.0/Newtonsoft.Json.Bson.xml",
+        "newtonsoft.json.bson.1.0.2.nupkg.sha512",
+        "newtonsoft.json.bson.nuspec"
+      ]
+    },
     "System.Collections.Immutable/7.0.0": {
       "sha512": "dQPcs0U1IKnBdRDBkrCTi1FoajSTBzLcVTpjO4MBCMC7f4pDOIPzgBoX8JjG7X6uZRJ8EBxsi8+DR1JuwjnzOQ==",
       "type": "package",
@@ -286,10 +551,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.IO.Packaging/7.0.0": {
-      "sha512": "+j5ezLP7785/pd4taKQhXAWsymsIW2nTnE/U3/jpGZzcJx5lip6qkj6UrxSE7ZYZfL0GaLuymwGLqwJV/c7O7Q==",
+    "System.IO.Packaging/8.0.0": {
+      "sha512": "8g1V4YRpdGAxFcK8v9OjuMdIOJSpF30Zb1JGicwVZhly3I994WFyBdV6mQEo8d3T+URQe55/M0U0eIH0Hts1bg==",
       "type": "package",
-      "path": "system.io.packaging/7.0.0",
+      "path": "system.io.packaging/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -306,11 +571,36 @@
         "lib/net6.0/System.IO.Packaging.xml",
         "lib/net7.0/System.IO.Packaging.dll",
         "lib/net7.0/System.IO.Packaging.xml",
+        "lib/net8.0/System.IO.Packaging.dll",
+        "lib/net8.0/System.IO.Packaging.xml",
         "lib/netstandard2.0/System.IO.Packaging.dll",
         "lib/netstandard2.0/System.IO.Packaging.xml",
-        "system.io.packaging.7.0.0.nupkg.sha512",
+        "system.io.packaging.8.0.0.nupkg.sha512",
         "system.io.packaging.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "type": "package",
+      "path": "system.memory/4.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.5.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -374,11 +664,48 @@
         "system.text.encoding.codepages.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "GDPicture.API >= 14.2.46"
+      "GDPicture.API >= 14.2.60"
     ]
   },
   "packageFolders": {
@@ -420,7 +747,7 @@
         "dependencies": {
           "GDPicture.API": {
             "target": "Package",
-            "version": "[14.2.46, )"
+            "version": "[14.2.60, )"
           }
         },
         "imports": [
