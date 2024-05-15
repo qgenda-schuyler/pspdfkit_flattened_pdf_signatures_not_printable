@@ -2,12 +2,12 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "GdPicture.API/14.2.60": {
+      "GdPicture.API/14.2.72": {
         "type": "package",
         "dependencies": {
-          "GdPicture.runtimes.linux": "[14.2.60]",
-          "GdPicture.runtimes.macos": "[14.2.60]",
-          "GdPicture.runtimes.windows": "[14.2.60]",
+          "GdPicture.runtimes.linux": "[14.2.72]",
+          "GdPicture.runtimes.macos": "[14.2.72]",
+          "GdPicture.runtimes.windows": "[14.2.72]",
           "Microsoft.AspNet.WebApi.Client": "6.0.0",
           "Newtonsoft.Json": "13.0.3",
           "System.Collections.Immutable": "7.0.0",
@@ -25,7 +25,7 @@
           }
         }
       },
-      "GdPicture.runtimes.linux/14.2.60": {
+      "GdPicture.runtimes.linux/14.2.72": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {}
@@ -92,7 +92,7 @@
           }
         }
       },
-      "GdPicture.runtimes.macos/14.2.60": {
+      "GdPicture.runtimes.macos/14.2.72": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {}
@@ -131,7 +131,7 @@
           }
         }
       },
-      "GdPicture.runtimes.windows/14.2.60": {
+      "GdPicture.runtimes.windows/14.2.72": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {}
@@ -351,14 +351,14 @@
     }
   },
   "libraries": {
-    "GdPicture.API/14.2.60": {
-      "sha512": "OJCxwJgGoWt48EhU4Bvg01HDFcZIsgAKmt40dQpAfmQWY0xyeQVG3GVab+83g/WJtbqav/KL1tVXJS3yO76hLQ==",
+    "GdPicture.API/14.2.72": {
+      "sha512": "ZS1Vg9eRxGPlvgKTh6WLEr4fEpH2g49JZvkHE32pPANYWnMfIPEnoe3J2yydsbVCvjGzjwpYAX+SfWwBscIHGg==",
       "type": "package",
-      "path": "gdpicture.api/14.2.60",
+      "path": "gdpicture.api/14.2.72",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "gdpicture.api.14.2.60.nupkg.sha512",
+        "gdpicture.api.14.2.72.nupkg.sha512",
         "gdpicture.api.nuspec",
         "images/icon.png",
         "lib/net6.0/GdPicture.NET.14.API.dll",
@@ -366,16 +366,16 @@
         "licenses/LICENSE.md"
       ]
     },
-    "GdPicture.runtimes.linux/14.2.60": {
-      "sha512": "kDNI4MzCfrmUp+ZPvooFdKZsANP8DB0u/Y1xaXLPHjrsSp5FCPgsUZnzGW4RJ6h2BdZFDOIlHKIfxlOfIsTteA==",
+    "GdPicture.runtimes.linux/14.2.72": {
+      "sha512": "nBJpucZShdy9x4qLuhF8+kDR+MEDmz6p82ioF4BTb0hSlhnt61W95OrWDjvvj4ECF1L9HBIWZPdI1/mhPqf/hA==",
       "type": "package",
-      "path": "gdpicture.runtimes.linux/14.2.60",
+      "path": "gdpicture.runtimes.linux/14.2.72",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/net462/GdPicture.runtimes.linux.targets",
         "buildTransitive/net462/GdPicture.runtimes.linux.targets",
-        "gdpicture.runtimes.linux.14.2.60.nupkg.sha512",
+        "gdpicture.runtimes.linux.14.2.72.nupkg.sha512",
         "gdpicture.runtimes.linux.nuspec",
         "images/icon.png",
         "lib/net6.0/_._",
@@ -396,16 +396,16 @@
         "runtimes/linux-x64/native/GdPicture.NET.14.machine.vision.64.so"
       ]
     },
-    "GdPicture.runtimes.macos/14.2.60": {
-      "sha512": "I5QkmdFKPwJQQSr0+owLhN3FYmX5MMWjqNYxMDHOGRg4BNEQxlU39Br+rmkS9zZLKNr7w25pkqVaFrdPHbNSog==",
+    "GdPicture.runtimes.macos/14.2.72": {
+      "sha512": "dwd8F70ftsEMNsOfIrs8R4mCLrJ+kKAWTVGKFBjuYllkXrya2S6jIVvCnYla0WE6h8jibi78tXuPC8iXzM+O4Q==",
       "type": "package",
-      "path": "gdpicture.runtimes.macos/14.2.60",
+      "path": "gdpicture.runtimes.macos/14.2.72",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/net462/GdPicture.runtimes.macos.targets",
         "buildTransitive/net462/GdPicture.runtimes.macos.targets",
-        "gdpicture.runtimes.macos.14.2.60.nupkg.sha512",
+        "gdpicture.runtimes.macos.14.2.72.nupkg.sha512",
         "gdpicture.runtimes.macos.nuspec",
         "images/icon.png",
         "lib/net6.0/_._",
@@ -419,16 +419,16 @@
         "runtimes/osx/native/GdPicture.NET.14.machine.vision.dylib"
       ]
     },
-    "GdPicture.runtimes.windows/14.2.60": {
-      "sha512": "1H3RrCmo3SVvKUiU3kvUTTtp9yqwBnZ6wmn0QKNG/UiVjvhVQlfcJ4f1gsUqO1fKr/ojn239QH/kyfb8qlnaog==",
+    "GdPicture.runtimes.windows/14.2.72": {
+      "sha512": "Tv0G/1FFIMYhBcaFYJ8dniHmrb0lP+t4QbjTcNZBbbQ9cKNUxJgK8RQE+cjLLdEC5wRmbcqIVQ+3R7+oHWZfIg==",
       "type": "package",
-      "path": "gdpicture.runtimes.windows/14.2.60",
+      "path": "gdpicture.runtimes.windows/14.2.72",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/net462/GdPicture.runtimes.windows.targets",
         "buildTransitive/net462/GdPicture.runtimes.windows.targets",
-        "gdpicture.runtimes.windows.14.2.60.nupkg.sha512",
+        "gdpicture.runtimes.windows.14.2.72.nupkg.sha512",
         "gdpicture.runtimes.windows.nuspec",
         "images/icon.png",
         "lib/net462/_._",
@@ -705,7 +705,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "GDPicture.API >= 14.2.60"
+      "GDPicture.API >= 14.2.72"
     ]
   },
   "packageFolders": {
@@ -714,11 +714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/schuylerconover/QGenda/pspdfkit_sample/pspdfkit_sample.csproj",
+      "projectUniqueName": "/Users/schuylerconover/QGenda/pspdfkit_flattened_pdf_signatures_not_printable/pspdfkit_sample.csproj",
       "projectName": "pspdfkit_sample",
-      "projectPath": "/Users/schuylerconover/QGenda/pspdfkit_sample/pspdfkit_sample.csproj",
+      "projectPath": "/Users/schuylerconover/QGenda/pspdfkit_flattened_pdf_signatures_not_printable/pspdfkit_sample.csproj",
       "packagesPath": "/Users/schuylerconover/.nuget/packages/",
-      "outputPath": "/Users/schuylerconover/QGenda/pspdfkit_sample/obj/",
+      "outputPath": "/Users/schuylerconover/QGenda/pspdfkit_flattened_pdf_signatures_not_printable/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/schuylerconover/.nuget/NuGet/NuGet.Config"
@@ -747,7 +747,7 @@
         "dependencies": {
           "GDPicture.API": {
             "target": "Package",
-            "version": "[14.2.60, )"
+            "version": "[14.2.72, )"
           }
         },
         "imports": [

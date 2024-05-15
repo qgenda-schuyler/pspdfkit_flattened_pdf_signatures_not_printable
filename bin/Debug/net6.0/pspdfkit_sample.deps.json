@@ -8,17 +8,17 @@
     ".NETCoreApp,Version=v6.0": {
       "pspdfkit_sample/1.0.0": {
         "dependencies": {
-          "GdPicture.API": "14.2.60"
+          "GdPicture.API": "14.2.72"
         },
         "runtime": {
           "pspdfkit_sample.dll": {}
         }
       },
-      "GdPicture.API/14.2.60": {
+      "GdPicture.API/14.2.72": {
         "dependencies": {
-          "GdPicture.runtimes.linux": "14.2.60",
-          "GdPicture.runtimes.macos": "14.2.60",
-          "GdPicture.runtimes.windows": "14.2.60",
+          "GdPicture.runtimes.linux": "14.2.72",
+          "GdPicture.runtimes.macos": "14.2.72",
+          "GdPicture.runtimes.windows": "14.2.72",
           "Microsoft.AspNet.WebApi.Client": "6.0.0",
           "Newtonsoft.Json": "13.0.3",
           "System.Collections.Immutable": "7.0.0",
@@ -27,12 +27,12 @@
         },
         "runtime": {
           "lib/net6.0/GdPicture.NET.14.API.dll": {
-            "assemblyVersion": "14.2.60.0",
-            "fileVersion": "14.2.60.0"
+            "assemblyVersion": "14.2.72.0",
+            "fileVersion": "14.2.72.0"
           }
         }
       },
-      "GdPicture.runtimes.linux/14.2.60": {
+      "GdPicture.runtimes.linux/14.2.72": {
         "runtimeTargets": {
           "runtimes/linux-arm64/native/GdPicture.NET.14.Imaging.ML.arm64.so": {
             "rid": "linux-arm64",
@@ -106,7 +106,7 @@
           }
         }
       },
-      "GdPicture.runtimes.macos/14.2.60": {
+      "GdPicture.runtimes.macos/14.2.72": {
         "runtimeTargets": {
           "runtimes/osx/native/GdPicture.NET.14.Imaging.ML.dylib": {
             "rid": "osx",
@@ -145,7 +145,7 @@
           }
         }
       },
-      "GdPicture.runtimes.windows/14.2.60": {
+      "GdPicture.runtimes.windows/14.2.72": {
         "runtimeTargets": {
           "runtimes/win-x64/native/GdPicture.NET.14.Imaging.ML.64.dll": {
             "rid": "win-x64",
@@ -311,33 +311,33 @@
       "serviceable": false,
       "sha512": ""
     },
-    "GdPicture.API/14.2.60": {
+    "GdPicture.API/14.2.72": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OJCxwJgGoWt48EhU4Bvg01HDFcZIsgAKmt40dQpAfmQWY0xyeQVG3GVab+83g/WJtbqav/KL1tVXJS3yO76hLQ==",
-      "path": "gdpicture.api/14.2.60",
-      "hashPath": "gdpicture.api.14.2.60.nupkg.sha512"
+      "sha512": "sha512-ZS1Vg9eRxGPlvgKTh6WLEr4fEpH2g49JZvkHE32pPANYWnMfIPEnoe3J2yydsbVCvjGzjwpYAX+SfWwBscIHGg==",
+      "path": "gdpicture.api/14.2.72",
+      "hashPath": "gdpicture.api.14.2.72.nupkg.sha512"
     },
-    "GdPicture.runtimes.linux/14.2.60": {
+    "GdPicture.runtimes.linux/14.2.72": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kDNI4MzCfrmUp+ZPvooFdKZsANP8DB0u/Y1xaXLPHjrsSp5FCPgsUZnzGW4RJ6h2BdZFDOIlHKIfxlOfIsTteA==",
-      "path": "gdpicture.runtimes.linux/14.2.60",
-      "hashPath": "gdpicture.runtimes.linux.14.2.60.nupkg.sha512"
+      "sha512": "sha512-nBJpucZShdy9x4qLuhF8+kDR+MEDmz6p82ioF4BTb0hSlhnt61W95OrWDjvvj4ECF1L9HBIWZPdI1/mhPqf/hA==",
+      "path": "gdpicture.runtimes.linux/14.2.72",
+      "hashPath": "gdpicture.runtimes.linux.14.2.72.nupkg.sha512"
     },
-    "GdPicture.runtimes.macos/14.2.60": {
+    "GdPicture.runtimes.macos/14.2.72": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-I5QkmdFKPwJQQSr0+owLhN3FYmX5MMWjqNYxMDHOGRg4BNEQxlU39Br+rmkS9zZLKNr7w25pkqVaFrdPHbNSog==",
-      "path": "gdpicture.runtimes.macos/14.2.60",
-      "hashPath": "gdpicture.runtimes.macos.14.2.60.nupkg.sha512"
+      "sha512": "sha512-dwd8F70ftsEMNsOfIrs8R4mCLrJ+kKAWTVGKFBjuYllkXrya2S6jIVvCnYla0WE6h8jibi78tXuPC8iXzM+O4Q==",
+      "path": "gdpicture.runtimes.macos/14.2.72",
+      "hashPath": "gdpicture.runtimes.macos.14.2.72.nupkg.sha512"
     },
-    "GdPicture.runtimes.windows/14.2.60": {
+    "GdPicture.runtimes.windows/14.2.72": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1H3RrCmo3SVvKUiU3kvUTTtp9yqwBnZ6wmn0QKNG/UiVjvhVQlfcJ4f1gsUqO1fKr/ojn239QH/kyfb8qlnaog==",
-      "path": "gdpicture.runtimes.windows/14.2.60",
-      "hashPath": "gdpicture.runtimes.windows.14.2.60.nupkg.sha512"
+      "sha512": "sha512-Tv0G/1FFIMYhBcaFYJ8dniHmrb0lP+t4QbjTcNZBbbQ9cKNUxJgK8RQE+cjLLdEC5wRmbcqIVQ+3R7+oHWZfIg==",
+      "path": "gdpicture.runtimes.windows/14.2.72",
+      "hashPath": "gdpicture.runtimes.windows.14.2.72.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/6.0.0": {
       "type": "package",

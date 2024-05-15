@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/schuylerconover/QGenda/pspdfkit_sample/pspdfkit_sample.csproj": {}
+    "/Users/schuylerconover/QGenda/pspdfkit_flattened_pdf_signatures_not_printable/pspdfkit_sample.csproj": {}
   },
   "projects": {
-    "/Users/schuylerconover/QGenda/pspdfkit_sample/pspdfkit_sample.csproj": {
+    "/Users/schuylerconover/QGenda/pspdfkit_flattened_pdf_signatures_not_printable/pspdfkit_sample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/schuylerconover/QGenda/pspdfkit_sample/pspdfkit_sample.csproj",
+        "projectUniqueName": "/Users/schuylerconover/QGenda/pspdfkit_flattened_pdf_signatures_not_printable/pspdfkit_sample.csproj",
         "projectName": "pspdfkit_sample",
-        "projectPath": "/Users/schuylerconover/QGenda/pspdfkit_sample/pspdfkit_sample.csproj",
+        "projectPath": "/Users/schuylerconover/QGenda/pspdfkit_flattened_pdf_signatures_not_printable/pspdfkit_sample.csproj",
         "packagesPath": "/Users/schuylerconover/.nuget/packages/",
-        "outputPath": "/Users/schuylerconover/QGenda/pspdfkit_sample/obj/",
+        "outputPath": "/Users/schuylerconover/QGenda/pspdfkit_flattened_pdf_signatures_not_printable/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/schuylerconover/.nuget/NuGet/NuGet.Config"
@@ -40,7 +40,7 @@
           "dependencies": {
             "GDPicture.API": {
               "target": "Package",
-              "version": "[14.2.60, )"
+              "version": "[14.2.72, )"
             }
           },
           "imports": [
